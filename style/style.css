@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins',sans-serif;
+    box-sizing: border-box;
+}
+.hero{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(to right ,#094282,#6d00ff 70%,#6d00ff 70%);
+    color: #fff;
+    padding: 10px 8%;
+    position: relative;
+}
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 15px 8%;
+    display: flex;
+    align-items: center;
+    z-index: 10;
+}
+nav img{
+    width: 100px;
+}
+nav ul{
+    flex: 1;
+    text-align: center;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 5px 15px;
+}
+nav a{
+    text-decoration: none;
+    color: #fff;
+}
+nav a:hover{
+    color: orangered;
+    font-size: 30px;
+}
+.text-box{
+    margin-top: 18%;
+    max-width: 600px;
+}
+.text-box h1{
+    font-size: 90px;
+    line-height: 90px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    text-shadow: 5px 5px rgb(2, 27, 110);
+    
+    color:rgb(223, 217, 217);
+
+}
+.text-box h1:hover{
+    color: red;
+}
+
+.text-box p{
+ line-height: 28px;
+
+}
+
+.text-box button{
+    padding: 20px 40px;
+    background: #fff;
+    border: 0;
+    outline: 0;
+    margin-top: 40px;
+    margin-right: 10px;
+    border-radius: 50px;
+    font-weight: 500;
+    cursor: pointer;
+    font-size: 15px;
+}
+.text-box button:hover{
+    color: red;
+    font-size: 45px;
+}
+
+
+
+
+
+.text-box button:last-child{
+    background: #5957cf;
+    color: #fff;
+    font-size: 15px;
+}
+.text-box button:last-child:hover{
+    color: red;
+    font-size: 20px;
+}
+.feature-img{
+    width: 400px;
+    position: absolute;
+    right: 15%;
+    top: 41%;
+    height: 300px;
+    z-index: 2;
+     border-top-right-radius: 70px;
+     border-top-left-radius: 90px;
+     border-bottom-left-radius: 70px;
+     border-bottom-right-radius: 90px;
+     box-shadow:10px 10px rgb(6, 3, 71);
+
+}
+
+    
+
+.sidebar{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 32%;
+    height: 100%;
+    background: linear-gradient(#8569ff,#006786);
+    z-index: 1;
+}
+
